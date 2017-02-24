@@ -17,7 +17,7 @@ void loop() {
     digitalWrite(stepPin,HIGH); 
     delayMicroseconds(delBetweenSteps); 
     digitalWrite(stepPin,LOW); 
-    delayMicroseconds(delBetweensteps); 
+    delayMicroseconds(delBetweenSteps); 
   }
   delay(delBetweenSets); // One second delay
  
@@ -27,7 +27,7 @@ void loop() {
     digitalWrite(stepPin,HIGH); 
     delayMicroseconds(delBetweenSteps); 
     digitalWrite(stepPin,LOW); 
-    delayMicroseconds(delBetweensteps); 
+    delayMicroseconds(delBetweenSteps); 
   }
   delay(delBetweenSets); // One second delay
 }
